@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    font-family: Ubuntu;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixelz.cc%2Fwp-content%2Fuploads%2F2017%2F10%2Fdark-souls-dark-knight-uhd-8k-wallpaper.jpg&f=1&nofb=1") no-repeat center center/cover;
+
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid red;  */
+    background: rgb(12, 12, 12);
+    opacity: 0.77;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width:20%;
+    text-align: center;
+    position: sticky;
+    
+}
+.logo img{
+    height: 80px;
+    width: 100px;
+    opacity: 0.77;
+    position: sticky;
+}
+
+.menulist{
+    width: 80%;
+    text-align: right;
+    padding-right: 50px;
+    
+    position: sticky;
+
+
+}
+.menulist li{
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 50px;
+}
+
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: orange;
+}
+
+.headercontent{
+    text-transform: uppercase;
+    width: 100%;
+    height: 200px;
+    /* border:2px solid black; */
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-align: center;
+}
+.headercontent h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+.headercontent h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    letter-spacing: 0.7rem;
+    opacity: 0.77;
+}
+
+.headercontent button{
+    height: auto;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 22px;
+    background-color: transparent;
+    margin: 20px;
+    text-transform: uppercase;
+    border: 2px solid white transparent;
+    font-weight: bold;
+    transition: all 1s ease-out 1s;
+    cursor: pointer;
+
+}
+
+.headercontent button:hover{
+    background-color: orange;
+
+}
+
+footer{
+    width: 100%;
+    height: 390px;
+    color: white;
+    background: black;
+    opacity: 1;
+    
+}
+.footer{
+    width: 100%;
+    height: auto;
+    border: 2px solid grey;
+}
+.footer h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 38px;
+    padding-right: 70px;
+    color: green;
+    letter-spacing: 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.icon i{
+    
+    width: 20px;
+    padding: 30px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    box-shadow: white 2px 2px 3px ;
+}
+
+    
+.d{
+    width: 100%;
+
+}
+.d h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.7rem;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width:700px){
+    
+
+}
